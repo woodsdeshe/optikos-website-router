@@ -1,0 +1,19 @@
+<template>
+    <div class="logo-text">
+        <h1>بصرية</h1>
+        <h1>visuel</h1>
+        <h1>视觉</h1>
+        <h1>Optikos</h1>
+        <h1>ビジュアル</h1>
+        <h1>ויזואלית</h1>
+        <h1>visual</h1>
+        <h1>비주얼</h1>
+    </div>
+    <div class="image1">
+        <img src="../assets/"
+    </div>
+</template>
+
+<script>
+
+</script>

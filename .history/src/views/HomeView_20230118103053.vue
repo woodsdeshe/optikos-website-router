@@ -2,7 +2,6 @@
   <div class="home">
     <NavBar></NavBar>
     <MainPage></MainPage>
-    <TheFooter></TheFooter>
   </div>
 </template>
 
@@ -10,7 +9,7 @@
 // @ is an alias to /src
 import NavBar from '@/components/NavBar.vue'
 import MainPage from '@/components/LaguageSection.vue'
-import TheFooter from '@/components/TheFooter.vue'
+
 
 export default { 
   components: {

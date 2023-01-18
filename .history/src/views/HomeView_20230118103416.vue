@@ -2,7 +2,7 @@
   <div class="home">
     <NavBar></NavBar>
     <MainPage></MainPage>
-    <TheFooter></TheFooter>
+    <
   </div>
 </template>
 

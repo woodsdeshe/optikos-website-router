@@ -10,7 +10,7 @@
 // @ is an alias to /src
 import NavBar from '@/components/NavBar.vue'
 import MainPage from '@/components/LaguageSection.vue'
-import TheFooter from '@/components/TheFooter.vue'
+import TheFooter from '../'
 
 export default { 
   components: {

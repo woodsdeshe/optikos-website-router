@@ -2,7 +2,6 @@
   <div class="home">
     <NavBar></NavBar>
     <MainPage></MainPage>
-    <TheFooter></TheFooter>
   </div>
 </template>
 
@@ -15,8 +14,7 @@ import TheFooter from '@/components/TheFooter.vue'
 export default { 
   components: {
     NavBar,
-    MainPage,
-    TheFooter
+    MainPage
   }
 }
 </script>
