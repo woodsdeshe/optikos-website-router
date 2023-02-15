@@ -23,9 +23,8 @@
     perspective: 1000px;
     position: relative;
     margin-bottom: 2rem;
-    display: flex;
-    padding: 0px;
-    border-radius: 15px; 
+    display: inline-block;
+    padding: 10px;
   }
   
   .card-front,
@@ -39,6 +38,7 @@
   
   .card-front {
     transform: rotateY(0deg);
+    background-color: aqua;
   }
   
   .card-back {

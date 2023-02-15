@@ -48,7 +48,7 @@ h1{
     margin-left: 20 px;
     order: 1;
     z-index: 2;
-    border-radius:15px;
+    border-radius:15;
 }
 
 .header-text {

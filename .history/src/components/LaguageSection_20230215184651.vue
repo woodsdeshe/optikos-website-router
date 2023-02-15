@@ -49,6 +49,7 @@ h1{
     order: 1;
     z-index: 2;
     border-radius:15px;
+    height: ;
 }
 
 .header-text {

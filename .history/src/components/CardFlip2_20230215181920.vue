@@ -18,14 +18,13 @@
   <style scoped>
   .card-two {
     width: 200px;
-    height: 200px;
+    height: 300px;
     border: 1px solid black;
     perspective: 1000px;
     position: relative;
     margin-bottom: 2rem;
     display: flex;
-    padding: 0px;
-    border-radius: 15px; 
+    padding: 10px;
   }
   
   .card-front,
@@ -39,6 +38,7 @@
   
   .card-front {
     transform: rotateY(0deg);
+    background-color: aqua;
   }
   
   .card-back {

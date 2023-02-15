@@ -5,6 +5,7 @@
     <div class="card-container">
       <card-two>
       <template v-slot:front>
+        <h2>Card 1 Front</h2>
         <img src="@/assets/reading-girl.png" alt="Front image" class="card-image">
       </template>
       <template v-slot:back>
@@ -14,7 +15,8 @@
     </card-two>
     <card-two>
       <template v-slot:front>
-        <img src="@/assets/reading-girl.png" alt="Front image" class="card-image">
+        <h2>Card 2 Front</h2>
+        <p>Some content for card 2 front</p>
       </template>
       <template v-slot:back>
         <h2>Card 2 Back</h2>
@@ -23,7 +25,8 @@
     </card-two>
     <card-two>
       <template v-slot:front>
-        <img src="@/assets/reading-girl.png" alt="Front image" class="card-image">
+        <h2>Card 3 Front</h2>
+        <p>Some content for card 3 front</p>
       </template>
       <template v-slot:back>
         <h2>Card 3 Back</h2>
@@ -60,7 +63,7 @@ export default {
 
 }
 
-.card-two {
+.card-two, .card-two img {
   position: relative;
   width: 200px;
   height: 300px;
@@ -84,10 +87,12 @@ export default {
 }
 
 .card-image {
-  position: relative;
+  position: absolute;
+  top: 10px;
+  right: 10px;
   width: 200px;
-  height: 200px;
-  border-radius: 15px;
+  height: 3000px;
+  border-radius: 50%;
 }
 
 </style>

@@ -25,7 +25,7 @@
     margin-bottom: 2rem;
     display: flex;
     padding: 0px;
-    border-radius: 15px; 
+    border-radius: 15; 
   }
   
   .card-front,

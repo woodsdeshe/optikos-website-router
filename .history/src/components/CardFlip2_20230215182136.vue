@@ -25,7 +25,6 @@
     margin-bottom: 2rem;
     display: flex;
     padding: 0px;
-    border-radius: 15px; 
   }
   
   .card-front,
