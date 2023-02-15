@@ -81,9 +81,9 @@ export default {
   transform: rotateY(-180deg);
 }
 
-.card-two p {
+p {
   color: black;
-  text-align: left;
+  
 }
 
 

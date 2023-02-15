@@ -60,7 +60,8 @@ export default {
   display: flex;
   justify-content: space-around;
   background-color: #FFDDD2;
-
+  align-items: center;
+  m
 }
 
 .card-two {
@@ -81,9 +82,8 @@ export default {
   transform: rotateY(-180deg);
 }
 
-.card-two p {
+p {
   color: black;
-  text-align: left;
 }
 
 

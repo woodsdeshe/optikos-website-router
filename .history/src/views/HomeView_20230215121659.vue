@@ -69,6 +69,7 @@ export default {
   height: 300px;
   margin: 1rem;
   background-color: white;
+  text-align: center;
 }
 
 .card-flip-enter-active,
@@ -81,9 +82,9 @@ export default {
   transform: rotateY(-180deg);
 }
 
-.card-two p {
+p {
   color: black;
-  text-align: left;
+  
 }
 
 

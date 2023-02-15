@@ -83,7 +83,7 @@ export default {
 
 .card-two p {
   color: black;
-  text-align: left;
+  text-align: center;
 }
 
 

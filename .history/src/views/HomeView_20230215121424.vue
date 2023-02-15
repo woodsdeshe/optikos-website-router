@@ -60,6 +60,7 @@ export default {
   display: flex;
   justify-content: space-around;
   background-color: #FFDDD2;
+  align-items: center;
 
 }
 
@@ -69,6 +70,7 @@ export default {
   height: 300px;
   margin: 1rem;
   background-color: white;
+  w
 }
 
 .card-flip-enter-active,
@@ -81,9 +83,8 @@ export default {
   transform: rotateY(-180deg);
 }
 
-.card-two p {
+p {
   color: black;
-  text-align: left;
 }
 
 

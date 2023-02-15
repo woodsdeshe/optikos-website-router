@@ -58,17 +58,15 @@ export default {
 <style>
 .card-container {
   display: flex;
-  justify-content: space-around;
-  background-color: #FFDDD2;
-
+  justify-content: center;
 }
 
 .card-two {
   position: relative;
   width: 200px;
   height: 300px;
-  margin: 1rem;
-  background-color: white;
+  margin: 2rem;
+  background-color: #FFDDD2 ;
 }
 
 .card-flip-enter-active,
@@ -81,9 +79,8 @@ export default {
   transform: rotateY(-180deg);
 }
 
-.card-two p {
+p {
   color: black;
-  text-align: left;
 }
 
 

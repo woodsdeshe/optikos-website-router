@@ -2,7 +2,7 @@
   <div class="home">
     <NavBar></NavBar>
     <MainPage></MainPage>
-    <div class="card-container">
+    <div>
       <card-two>
       <template v-slot:front>
         <h2>Card 1 Front</h2>
@@ -49,6 +49,7 @@ export default {
   components: {
     NavBar,
     MainPage,
+    Card,
     CardTwo,
     TheFooter
   },
@@ -58,17 +59,14 @@ export default {
 <style>
 .card-container {
   display: flex;
-  justify-content: space-around;
-  background-color: #FFDDD2;
-
+  justify-content: center;
 }
 
-.card-two {
+.card {
   position: relative;
   width: 200px;
   height: 300px;
   margin: 1rem;
-  background-color: white;
 }
 
 .card-flip-enter-active,
@@ -81,9 +79,8 @@ export default {
   transform: rotateY(-180deg);
 }
 
-.card-two p {
+.card p {
   color: black;
-  text-align: left;
 }
 
 

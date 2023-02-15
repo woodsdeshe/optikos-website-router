@@ -58,9 +58,9 @@ export default {
 <style>
 .card-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #FFDDD2;
-
+  
 }
 
 .card-two {
@@ -81,9 +81,8 @@ export default {
   transform: rotateY(-180deg);
 }
 
-.card-two p {
+p {
   color: black;
-  text-align: left;
 }
 
 
